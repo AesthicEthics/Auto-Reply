@@ -22,8 +22,8 @@ def fb():
 
     driver.get("http://facebook.com")
 
-    fbemail = "thakuraryan@hotmail.com"
-    fbpsw = "loseyourself"
+    fbemail = ""
+    fbpsw = ""
 
     fbemaile = driver.find_element_by_id("email")
     fbepass = driver.find_element_by_id("pass")
